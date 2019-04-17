@@ -1,22 +1,4 @@
-### Prerequisites
 
-Selenium WebDriver
-
-Require
-
-aXe Core
-
-aXe WebDriver JavaScript
-
-```
-npm install selenium-webdriver
-
-npm install require
-
-npm install axe-core
-
-npm install axe-webdriverjs
-```
 
 ## Getting Started
 
@@ -94,6 +76,18 @@ Install aXe Reports
 ```
 npm install axe-reports
 ```
+
+### This will install all the following Prerequisites
+
+Selenium WebDriver
+
+Require
+
+aXe Core
+
+aXe WebDriver JavaScript
+
+aXe Reports
 
 ## Usage
 
