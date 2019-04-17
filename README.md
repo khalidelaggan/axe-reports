@@ -71,13 +71,13 @@ driver.wait(until.titleIs('Home - Canadian Digital Service'), 1000)
 
 ### Installing
 
-Install aXe Reports
+Install aXe Reports bundels
 
 ```
-npm install axe-reports
+npm install 
 ```
 
-### This will install all the following Prerequisites
+it will install all the following Prerequisites
 
 Selenium WebDriver
 
@@ -146,3 +146,4 @@ AxeReports.createCsvReport(results);
 ```
 AxeReports.createTsvReport(results);
 ```
+Please refer to Axe report Javascript documentations for full customizations
