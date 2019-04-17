@@ -54,7 +54,7 @@ driver
   });
 ```
 
-Another example inside the included index.js contains axe reports module integrations to output eithercsv or tsv file format for possible data archiving
+Another example inside the included index.js contains axe reports module integrations to log the results in either csv or tsv file format for possible data archiving
 
 ```javascript
 var AxeBuilder = require('axe-webdriverjs'),
