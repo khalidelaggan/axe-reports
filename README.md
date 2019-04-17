@@ -95,7 +95,7 @@ aXe Reports
 node index.js 
 ```
 
-## Usage
+## How does it work?
 
 **Create a Results File**
 
@@ -111,6 +111,15 @@ string fileType = file extension (only 'csv' and 'tsv' are supported)
 string fileName = name of file (i.e. test-results) without file extension
 
 boolean createNewReport = tells file writer to start a new file or not
+```
+
+```javascript
+        AXE_BUILDER.analyze(function (err,results) {
+            if (err) {
+                // Handle error somehow
+              }  
+               AxeReports.processResults(results, 'csv', 'test-report', true);
+        });
 ```
 
 **OR**
