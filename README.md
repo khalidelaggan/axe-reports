@@ -89,6 +89,12 @@ aXe WebDriver JavaScript
 
 aXe Reports
 
+### Running the Script to generate the csv/tsv reports 
+
+```
+node index.js 
+```
+
 ## Usage
 
 **Create a Results File**
