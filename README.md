@@ -2,13 +2,31 @@
 
 ## Getting Started
 
-Install [Node.js](https://docs.npmjs.com/getting-started/installing-node) if you haven't already. For running axe-webdriverjs tests read more about [setting up your environment](CONTRIBUTING.md).
-
-> Download and install any necessary browser drivers on your machine's PATH. [More on Webdriver setup](https://seleniumhq.github.io/docs/wd.html).
-
-Install Selenium Webdriver: `npm install selenium-webdriver --no-save`
-
 Install axe-webdriverjs and its dependencies: `npm install axe-webdriverjs`
+
+### Installing
+
+Install aXe Reports bundels
+
+```
+npm install 
+```
+
+It will install all the following Prerequisites
+
+Selenium WebDriver
+
+Require
+
+aXe Core
+
+aXe Reports
+
+### Running the Script to generate the csv/tsv reports 
+
+```
+node index.js 
+```
 
 ## Usage
 
@@ -66,33 +84,6 @@ driver.wait(until.titleIs('Home - Canadian Digital Service'), 1000)
     });
 
 
-```
-
-
-### Installing
-
-Install aXe Reports bundels
-
-```
-npm install 
-```
-
-it will install all the following Prerequisites
-
-Selenium WebDriver
-
-Require
-
-aXe Core
-
-aXe WebDriver JavaScript
-
-aXe Reports
-
-### Running the Script to generate the csv/tsv reports 
-
-```
-node index.js 
 ```
 
 ## How does it work?
